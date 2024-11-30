@@ -36,3 +36,8 @@ count := count - 1
 Counter >> increment [
 count := count + 1
 ]
+
+{ #category : #initialize }
+Counter >> initialize [ 
+count:= 0.
+]
